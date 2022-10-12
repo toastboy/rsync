@@ -1,4 +1,4 @@
-FROM debian:stretch-20210408-slim
+FROM debian:bullseye-20220912-slim
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y rsync && \
