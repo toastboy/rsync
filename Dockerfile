@@ -1,4 +1,4 @@
-FROM debian:11.6-slim
+FROM debian:bullseye-20230703-slim
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y rsync && \
