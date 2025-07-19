@@ -6,4 +6,4 @@ RUN apt-get update && \
 
 # Stay running so we're ready to run backups when required
 
-CMD tail -f /dev/null
+CMD ["tail", "-f", "/dev/null"]
